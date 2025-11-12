@@ -21,6 +21,12 @@ npm install
 
 # Run the demo app
 npm run demo
+
+# Run accessibility tests
+npm run test:a11y
+
+# Run accessibility linting
+npm run lint:a11y
 ```
 
 ### Dev Container Setup
@@ -56,8 +62,8 @@ ux-accessibility/
 - [x] Build flagship accessible components (Button, Form, Modal)
 - [x] Set up development environment (Vite + React)
 - [x] Create dev container configuration
+- [x] Set up automated accessibility tests (axe-core, jsx-a11y)
 - [ ] Add framework adapters (Vue, Angular)
-- [ ] Set up automated accessibility tests
 - [ ] Deploy demo app for instant access
 - [ ] Publish to npm
 
