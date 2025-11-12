@@ -3,12 +3,32 @@
 A transformative, shareable accessibility product to empower ESDC IT and millions of Canadians. Easily integrate WCAG-compliant, bilingual, and highly accessible UI components into any web project.
 
 ## Demo
-[Click here for a live demo](#) <!-- TODO: Link to deployed demo app -->
+Run locally with `npm run demo` or [view the live demo](#) <!-- TODO: Link to deployed demo app -->
 
 ## Get Started
 ```sh
 npm install @esdc/ux-accessibility
 ```
+
+### Local Development
+```sh
+# Clone the repository
+git clone https://github.com/MarcoPolo483/ux-accessibility.git
+cd ux-accessibility
+
+# Install dependencies
+npm install
+
+# Run the demo app
+npm run demo
+```
+
+### Dev Container Setup
+This project includes VS Code Dev Container support for consistent development environments:
+1. Open in VS Code
+2. Install the "Dev Containers" extension
+3. Click "Reopen in Container" when prompted
+4. The environment will be automatically configured with Node.js 20 and accessibility tools
 
 ## Features
 - Plug-and-play accessible UI components (buttons, forms, modals, etc.)
@@ -33,8 +53,10 @@ ux-accessibility/
 
 ## Roadmap
 - [x] Scaffold repo and documentation
-- [ ] Build flagship accessible components
-- [ ] Add framework adapters
+- [x] Build flagship accessible components (Button, Form, Modal)
+- [x] Set up development environment (Vite + React)
+- [x] Create dev container configuration
+- [ ] Add framework adapters (Vue, Angular)
 - [ ] Set up automated accessibility tests
 - [ ] Deploy demo app for instant access
 - [ ] Publish to npm
